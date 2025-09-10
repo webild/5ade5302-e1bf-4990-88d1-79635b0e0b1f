@@ -60,7 +60,7 @@ export default function Home() {
           title="Tokenomics"
           description="Here’s a brief overview of our token distribution and usage."
           kpiItems={[
-            { value: '10M', description: 'Total Supply', longDescription: 'Total number of tokens in circulation.', icon: { Name: 'MyIcon', Class: 'LucideIcon' } }
+            { value: '10M', description: 'Total Supply', longDescription: 'Total number of tokens in circulation.', icon: { icon: 'MyIcon' } }
           ]}
         />
       </div>
