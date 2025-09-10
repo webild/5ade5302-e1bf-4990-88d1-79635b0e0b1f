@@ -6,6 +6,7 @@ import SocialsAbout from '@/components/sections/layouts/about/SocialsAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import FooterLogo from '@/components/footer/FooterLogo';
+import { ArrowRight } from 'lucide-react';
 
 const navItems = [
   { name: "Hero", id: "hero" },
