@@ -61,9 +61,9 @@ export default function Home() {
           title="Tokenomics"
           description="Our tokenomics are designed to ensure sustainability and growth."
           kpiItems={[
-            { value: "1M", description: "Initial Supply", longDescription: "Total amount of tokens at launch.", icon: 'LucideIcon' },
-            { value: "500K", description: "Circulating Supply", longDescription: "Tokens available in the market.", icon: 'LucideIcon' },
-            { value: "20%", description: "Tax Rate", longDescription: "Transaction tax to fuel development.", icon: 'LucideIcon' }
+            { value: "1M", description: "Initial Supply", longDescription: "Total amount of tokens at launch.", icon: ArrowRight },
+            { value: "500K", description: "Circulating Supply", longDescription: "Tokens available in the market.", icon: ArrowRight },
+            { value: "20%", description: "Tax Rate", longDescription: "Transaction tax to fuel development.", icon: ArrowRight }
           ]}
         />
       </div>
