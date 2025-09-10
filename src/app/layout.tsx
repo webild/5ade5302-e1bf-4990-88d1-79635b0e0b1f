@@ -16,15 +16,21 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Simple Business",
-  description: "Showcase business services and engage visitors with a clear call to action.",
+  description: "Showcase business services and engage visitors with a clear call to action."
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{ children: React.ReactNode; }>) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
-      <body className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}>{children}</body>
+      <body
+        className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
